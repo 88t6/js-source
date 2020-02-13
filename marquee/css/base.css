@@ -1,0 +1,21 @@
+*{margin:0px;padding:0px;border:0;outline:none;}
+.w100p{width:100%;}
+.f12{font-size:12px;}
+.f14{font-size:14px;}
+.f16{font-size:16px;}
+.f20{font-size:20px;}
+.bold{font-weight:bold;}
+.white{color:white;}
+.black{color:black;}
+
+.clear{clear:both;}
+.listStyle{list-style:none;}
+.center{margin:0 auto;}
+.tcenter{text-align:center;}
+.hidden{overflow:hidden;}
+.block{display:block;}
+.pointer{cursor:pointer;}
+.border{border:1px solid #e0e0e0;}
+.left{float:left;margin-left:0px;margin-top:0px;}
+.relative{position:relative;top:0px;left:0px;}
+.absolute{position:absolute;top:0px;left:0px;}

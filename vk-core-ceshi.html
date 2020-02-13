@@ -1,0 +1,20 @@
+<!Doctype html>
+<html>
+<head>
+	<!--<script type="text/javascript" src="vk-core-2.0.js"></script>
+	<script type="text/javascript" src="vk-core-2.0-impl.js"></script>-->
+	<script type="text/javascript" src="utils-2.0.js"></script>
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<script type="text/javascript">
+		window.onload = function(){
+			toast("asdasdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",3000);
+			var cv = canvas_utils("#canvas","100px","100px");
+			var point = cv.getPaints()[0];
+			point.fillStyle='#FF0000';
+			point.fillRect(0,0,80,100);
+		};
+	</script>
+</body>
+</html>

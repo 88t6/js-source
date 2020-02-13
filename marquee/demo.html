@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+ <head>
+  <link type="text/css" rel="stylesheet" href="css/base.css" />
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/marquee.js"></script>
+  <meta charset="UTF-8">
+  <title>marquee</title>
+ </head>
+ <body>
+  <!--ÏñÓÒ¹ö¶¯ start-->
+  <div class="marquee_right border" style="width:500px;height:200px;">
+   <ul class="listStyle">
+	<li style="width:100px;height:100px;background-color:red;"></li>
+	<li style="width:100px;height:100px;background-color:blue;"></li>
+	<li style="width:100px;height:100px;background-color:pink;"></li>
+	<li style="width:100px;height:100px;background-color:black;"></li>
+	<li style="width:100px;height:100px;background-color:yellow;"></li>
+   </ul>
+  </div>
+  <script type="text/javascript">
+   $(document).ready(function(e){
+    $(".marquee_right")
+	 .marquee(10,1,10,"right")//marquee(speed,step,margin,direction)
+	 .showLeftButton()//showLeftButton(src,width,height,overflow) 
+	 .showRightButton();//showRightButton(src,width,height)
+   });
+  </script>
+  <!--ÏñÓÒ¹ö¶¯ end-->
+
+  <!--Ïñ×ó¹ö¶¯ start-->
+  <div class="marquee_left border" style="width:500px;height:200px;">
+   <ul class="listStyle">
+	<li style="width:100px;height:100px;background-color:red;"></li>
+	<li style="width:100px;height:100px;background-color:blue;"></li>
+	<li style="width:100px;height:100px;background-color:pink;"></li>
+	<li style="width:100px;height:100px;background-color:black;"></li>
+	<li style="width:100px;height:100px;background-color:yellow;"></li>
+   </ul>
+  </div>
+  <script type="text/javascript">
+   $(document).ready(function(e){
+    $(".marquee_left")
+	 .marquee(10,1,10,"left")//marquee(speed,step,margin,direction)
+	 .showLeftButton()//showLeftButton(src,width,height,overflow) 
+	 .showRightButton();//showRightButton(src,width,height)
+   });
+  </script>
+  <!--Ïñ×ó¹ö¶¯ end-->
+
+  <!--ÏñÉÏ¹ö¶¯ start-->
+  <div class="marquee_up border" style="width:200px;height:500px;float:left">
+   <ul class="listStyle" style="width:100px">
+	<li style="width:100px;height:100px;background-color:red;"></li>
+	<li style="width:100px;height:100px;background-color:blue;"></li>
+	<li style="width:100px;height:100px;background-color:pink;"></li>
+	<li style="width:100px;height:100px;background-color:black;"></li>
+	<li style="width:100px;height:100px;background-color:yellow;"></li>
+   </ul>
+  </div>
+  <script type="text/javascript">
+   $(document).ready(function(e){
+    $(".marquee_up")
+	 .marquee(10,1,10,"up")//marquee(speed,step,margin,direction)
+	 .showUpButton()//showUpButton(src,width,height,overflow) 
+	 .showDownButton();//showDownButton(src,width,height)
+   });
+  </script>
+  <!--ÏñÉÏ¹ö¶¯ end-->
+
+   <!--ÏñÏÂ¹ö¶¯ start-->
+  <div class="marquee_down border" style="width:200px;height:500px;float:left">
+   <ul class="listStyle" style="width:100px">
+	<li style="width:100px;height:100px;background-color:red;"></li>
+	<li style="width:100px;height:100px;background-color:blue;"></li>
+	<li style="width:100px;height:100px;background-color:pink;"></li>
+	<li style="width:100px;height:100px;background-color:black;"></li>
+	<li style="width:100px;height:100px;background-color:yellow;"></li>
+   </ul>
+  </div>
+  <script type="text/javascript">
+   $(document).ready(function(e){
+    $(".marquee_down")
+	 .marquee(10,1,10,"down")//marquee(speed,step,margin,direction)
+	 .showUpButton()//showUpButton(src,width,height,overflow) 
+	 .showDownButton();//showDownButton(src,width,height)
+   });
+  </script>
+  <!--ÏñÏÂ¹ö¶¯ end-->
+ </body>
+</html>
